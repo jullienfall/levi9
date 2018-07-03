@@ -1,0 +1,47 @@
+@import "var.scss";
+
+.container-block {
+    width: 80%;
+    margin: auto;
+
+    .container-block--img {
+        width: 100%;
+    }
+
+    .container-block--text {
+        width: 60%;
+        margin: auto;
+        border-left: 2px solid #ddd;
+        padding: 20px 50px;
+        position: relative;
+        color: $base-color;
+        font-size: 18px;
+
+        .container-block--date {
+            position: absolute;
+            top: 3px;
+            left: -15px;
+            color: #c20000;
+            width: 30px;
+            background: #fff;
+            padding: 10px 0;
+            text-align: center;
+            line-height: 0.7em;
+
+            .container-block--date__span1 {
+                font-weight: 700;
+                font-size: 1.2em;
+            }
+
+            .container-block--date__span2 {
+                text-transform: uppercase;
+                font-size: 0.6em;
+            }
+        }
+
+        .container-block--h2 {
+            margin: 0;
+            font-size: 2em;
+        }
+    }
+}

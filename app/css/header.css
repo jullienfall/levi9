@@ -1,0 +1,32 @@
+.container-header {
+    text-align: center;
+}
+
+.container-header .container-header--img {
+    padding: 30px 0 20px 0;
+    width: 350px;
+}
+
+.container-header .container-header--h1 {
+    margin: 13px;
+    font-size: 1em;
+}
+
+.container-header .container-header--h1 .container-header--span {
+    text-transform: uppercase;
+    background-color: #202545;
+    color: #fff;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.container-header .container-header--scroll {
+    padding: 50px 0 10px 0;
+    color: #202545;
+}
+
+.container-header .container-header--scroll .container-header--i {
+    padding: 6px 9px;
+    border: 1px solid #202545;
+    border-radius: 50%;
+}
